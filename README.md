@@ -51,7 +51,7 @@ Carla_own_dataset_root = "./dataset/Carla_own/"
 log_dir = "./logs"
 ```
 
-## Attack Patch
+## Generate Attack Patch
 Run the following code to launch BADPatch on Monodepth2:
 ```
 python main.py\
@@ -63,9 +63,19 @@ python main.py\
 ```
 You can change the MDE model with the option `--model_name` and change the attack method with the option `--attack_method`.
 
+## Weather Test
+Run the following code to test the attack performance under different weather conditions.
+```
+python weather_test.py
+```
+By adjusting `attack_name`, `model_name`, and `weather`, the attack performance of different methods can be evaluated across various MDE models and weather conditions.
 
-
-
+## Distance Test
+Run the following code to test the attack performance under different distance conditions.
+```
+python distance_test.py
+```
+By adjusting `attack_name`, `model_name`, and `weather`, the attack performance of different methods can be evaluated across various MDE models and weather conditions.
 
 
 
