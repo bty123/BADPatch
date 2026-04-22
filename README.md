@@ -39,12 +39,19 @@ BADPatch
 ```
 
 ## Dataset Preparation
-You will need to download the `Carla dataset` and organize it in the following way. The path of the dataset is `./dataset/Carla/`.<br>
+You will need to download the `[Carla dataset](https://drive.google.com/file/d/1lk8rdDiApqFKKBsl5mO6jIze1b6PwMct/view?usp=sharing)` and organize it in the following way. The path of the dataset is `./dataset/Carla_own/`.
 ```
 ├── Carla
     ├── testing
     ├── training
 ```
+Provide the log path and the dataset path in the file `config.py`:
+```
+Carla_own_dataset_root = "./dataset/Carla_own/"
+log_dir = "./logs"
+```
+
+
 
 
 
