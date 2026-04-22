@@ -37,3 +37,16 @@ BADPatch
 ├── checkpoints
     ├── ...
 ```
+
+## Dataset Preparation
+You will need to download the `Carla dataset` and organize it in the following way. The path of the dataset is `./dataset/Carla/`.<br>
+```
+├── Carla
+    ├── testing
+    ├── training
+```
+
+
+
+
+
