@@ -39,7 +39,7 @@ BADPatch
 ```
 
 ## Dataset Preparation
-You will need to download the `[Carla dataset](https://drive.google.com/file/d/1lk8rdDiApqFKKBsl5mO6jIze1b6PwMct/view?usp=sharing)` and organize it in the following way. The path of the dataset is `./dataset/Carla_own/`.
+You will need to download the [Carla dataset](https://drive.google.com/file/d/1lk8rdDiApqFKKBsl5mO6jIze1b6PwMct/view?usp=sharing) and organize it in the following way. The path of the dataset is `./dataset/Carla_own/`.
 ```
 ├── Carla
     ├── testing
@@ -50,6 +50,19 @@ Provide the log path and the dataset path in the file `config.py`:
 Carla_own_dataset_root = "./dataset/Carla_own/"
 log_dir = "./logs"
 ```
+
+## Attack Patch
+Run the following code to launch BADPatch on Monodepth2:
+```
+python main.py\
+    --model_name monodepth2 \
+    --attack_method blackbox \
+    --n_iter 200 \
+    --trail 25 \
+    --test_name monodepth2
+```
+You can change the MDE model with the option `--model_name` and change the attack method with the option `--attack_method`.
+
 
 
 
