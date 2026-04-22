@@ -20,6 +20,6 @@ Install required packages:<br>
 Clone this repository to folder `~/BADPatch`
 ```
 cd ~
-git clone <[repo_url](https://github.com/bty123/BADPatch)> BADPatch
+git clone <repo_url> BADPatch
 cd BADPatch
 ```
