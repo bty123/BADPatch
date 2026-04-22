@@ -18,3 +18,8 @@ Install required packages:<br>
 
 ## Code Preparation
 Clone this repository to folder `~/BADPatch`
+```
+cd ~
+git clone <[repo_url](https://github.com/bty123/BADPatch)> BADPatch
+cd BADPatch
+```
