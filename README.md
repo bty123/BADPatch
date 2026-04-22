@@ -19,21 +19,21 @@ Install required packages:<br>
 ## Code Preparation
 Clone this repository to folder `~/BADPatch`
 ```
-cd ~
-git clone <repo_url> BADPatch
+git clone https://github.com/bty123/BADPatch
 cd BADPatch
 ```
-Prepare the target MDE networks (Monodepth2, DepthHints, Lite-Mono, SQLdepth, MiDaS, DepthAnything v2) following their official instructions and put them in the directory of `DepthNetworks`. Download their official pretrained model weights into a sub-folder named models inside each network's directory `(e.g., DepthNetworks/monodepth2/models)`.<br>
+Prepare the target MDE networks ([Monodepth2](https://github.com/nianticlabs/monodepth2), [DepthHints](https://github.com/nianticlabs/depth-hints), [Lite-Mono](https://github.com/noahzn/Lite-Mono), [SQLdepth](https://github.com/hisfog/SfMNeXt-Impl)) following their official instructions and put them in the directory of `DepthNetworks`. Download their official pretrained model weights into a sub-folder inside each network's directory `(e.g., ./DepthNetworks/monodepth2)`.<br>
+
+Prepare the target MDE networks ([MiDaS](https://github.com/isl-org/MiDaS), [DepthAnything v2](https://github.com/DepthAnything/Depth-Anything-V2/tree/main)) following their official instructions and put them in the directory of `checkpoints`. Download the weights of the official pre-trained model to the `checkpoints` directory `(e.g., ./checkpoints/)`.<br>
+
 
 The directories should be organized as:
 ```
-BadPart
+BADPatch
 ├── DepthNetworks
-    ├── depth-hints
-    ├── monodepth2
-    ├── PlaneDepth
+    ├── Monodepth2
+    ├── DepthHints
+    ├── Lite-Mono
     ├── SQLdepth
-├── FlowNetworks
-    ├── flow_models
-        ├── pretrained
+├── checkpoints
 ```
