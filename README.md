@@ -8,4 +8,10 @@ conda create -n BADPatch python=3.9
 conda activate BADPatch
 ```
 Install required packages:<br>
-* pytorch=1.11
+* torch==2.4.1
+* torchvision==0.19.1
+* numpy==2.0.2
+* networkx
+* timm
+* tqdm
+* ...
