@@ -7,3 +7,5 @@ Create a new conda environment of Python 3.9 called BADPatch:<br>
 conda create -n BADPatch python=3.9
 conda activate BADPatch
 ```
+Install required packages:<br>
+* pytorch=1.11
