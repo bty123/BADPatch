@@ -3,5 +3,7 @@ This is the code implementation of our paper “BADPatch: Black-box Adversarial 
 
 ## Environment preparation
 Create a new conda environment of Python 3.9 called BADPatch:<br>
-'conda create -n BadPart python=3.8
-conda activate BadPart'
+'''
+conda create -n BadPart python=3.8
+conda activate BadPart
+'''
