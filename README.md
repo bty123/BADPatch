@@ -26,7 +26,6 @@ Prepare the target MDE networks ([Monodepth2](https://github.com/nianticlabs/mon
 
 Prepare the target MDE networks ([MiDaS](https://github.com/isl-org/MiDaS), [DepthAnything v2](https://github.com/DepthAnything/Depth-Anything-V2/tree/main)) following their official instructions and put them in the directory of `checkpoints`. Download the weights of the official pre-trained model to the `checkpoints` directory `(e.g., ./checkpoints/)`.<br>
 
-
 The directories should be organized as:
 ```
 BADPatch
@@ -36,4 +35,5 @@ BADPatch
     ├── Lite-Mono
     ├── SQLdepth
 ├── checkpoints
+    ├── ...
 ```
