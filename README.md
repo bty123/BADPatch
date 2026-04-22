@@ -17,4 +17,4 @@ Install required packages:<br>
 * ...
 
 ## Code Preparation
-Clone this repository to folder '~/BADPatch'
+Clone this repository to folder `~/BADPatch`
