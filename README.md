@@ -24,6 +24,7 @@ git clone <repo_url> BADPatch
 cd BADPatch
 ```
 Prepare the target MDE networks (Monodepth2, DepthHints, Lite-Mono, SQLdepth, MiDaS, DepthAnything v2) following their official instructions and put them in the directory of `DepthNetworks`. Download their official pretrained model weights into a sub-folder named models inside each network's directory `(e.g., DepthNetworks/monodepth2/models)`.<br>
+
 The directories should be organized as:
 ```
 BadPart
